@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(){
+	
+	int num, i = 0, soma = 0;
+	
+	while(1){
+		printf("digite um numero inteiro positivo\n");
+		scanf("%d", &num);
+		
+		if(num < 0){
+			break;
+		}
+		soma = soma + num;
+		i++;
+		}
+		printf("a soma e %d\n", soma);
+	
+	
+	
+	
+	
+	
+	
+	
+}
